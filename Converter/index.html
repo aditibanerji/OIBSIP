@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Lato:wght@300;400&family=Montserrat:wght@200&family=Poppins:wght@300;400&family=Quicksand&family=Roboto+Mono&family=Roboto+Slab&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3e88322b52.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+              <div class="container">
+
+                <h2>Temperature Converter</h2>
+
+                <div class="content">
+
+
+                <form name="form" onsubmit=change()>
+
+                  
+                        <div class="d">
+                            <label >Degrees</label><br>
+                        <input type="number" name="degree" id="degree"> 
+
+                        </div>
+                        
+
+                         <div class="t">
+
+                            <label >Type</label><br>
+                            <select name="type" value="" id="type">
+    
+                                <option value="f">Fahrenheit</option>
+                                <option value="c">Celsius</option>
+    
+                            </select>
+
+                         </div>
+
+                         <div class="r">
+
+                            <label for="result">Result</label><br>
+                            <span id="result"></span>
+
+                         </div>
+                         <button id="btn" >Convert</button>
+                      
+
+                    
+
+                </form>
+                </div>
+
+
+              </div>
+
+              <h1 id="h1"></h1>
+
+              <script src="script.js"></script>
+  </body>
+
+  
+</html>
