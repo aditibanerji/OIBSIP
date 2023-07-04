@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(26, 25, 32);
+   
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(49, 48, 46);
+}
+.right ul{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(49, 48, 46);
+
+}
+.right ul li{
+    float: left;
+    list-style: none;
+    margin: 0px 23px;
+ 
+}
+.left{
+    font-size: 1.5rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0px;
+    
+}
+.first div{
+    width: 30%;
+}
+img{
+    height: 300px;
+    margin: 50px 0px;
+}
+.leftsec{
+    font-size: 2rem;
+    margin: 90px 60px;
+}
+#name{
+    color: rgb(159, 174, 179);
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color:  rgb(159, 174, 179);
+    
+}
+.second{
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+main hr{
+    border: 0px;
+    background-color:rgb(49, 48, 46);
+    height: 1px;
+    margin: 30px 30px;
+}
+h2{
+    font-weight: 400;
+}
+.second .box{
+    background: rgb(49, 48, 46);
+    width: 80vw;
+    height: 2px;
+    margin: 130px 0px;
+    display: flex;
+}
+.second .vertical{
+    height: 92px;
+    width:1px;
+    background-color: rgb(49, 48, 46);
+    margin: 0px 110px;
+}
+
+.image-top{
+
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: -140px;
+    left: -39px;
+}
+
+
+.vertical-title{
+    position: relative;
+    top: -80px;
+    left: -50px;
+    width: 150px;
+}
+
+.third{
+
+    max-width: 80vw;
+    margin: auto;
+    height: 125vh;
+
+}
+.container{
+
+  
+    width: 80vw;
+    height: 56vh;
+    margin: 30px;
+    display: flex;
+   
+   
+    
+}
+.container .content{
+
+    border: 1px solid rgb(49, 48, 46);
+    border-radius: 4px;
+    background-color: rgb(48, 46, 46);
+    margin: 30px 10px;
+    height: 300px;
+    width: 500px;
+}
+.content .title{
+
+     font-size: 25px;
+     margin: 15px 25px;
+}
+.content .title a{
+    text-decoration: none;
+    color: white;
+}
+
+.content .title a:hover{
+    
+   color:rgb(159, 174, 179); ;
+}
+
+.desc p{
+    font-size: 12px;
+    width: 300px;
+    margin: 0px 20px;
+    color: rgb(129, 128, 125);
+}
+
+.fourth{
+
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+
+}
+
+.panel{
+
+   
+    margin: 50px ;
+    height: 250px;
+    display: flex;
+}
+
+.panel .detail{
+
+    
+    margin: 30px 90px;
+    width:180px;
+    height: 140px;
+}
+
+.detail label{
+
+    font-size: 30px;
+    margin: 40px 20px;
+    margin-left: 60px;
+
+}
+.detail h4{
+    margin-left: 38px;
+    font-weight: 200;
+
+}
+.detail p{
+    margin-left: 20px;
+}
+
+#phone{
+    margin-left: 50px;
+
+}
+#p{
+    margin-left: 30px;
+}
+#email{
+    margin-left: 56px;
+}
